@@ -32,3 +32,4 @@ namespace RapidApiProject.Controllers
         }
     }
 }
+/* 25. ders sonu*/
