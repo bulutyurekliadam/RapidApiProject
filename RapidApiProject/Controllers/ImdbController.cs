@@ -10,7 +10,7 @@ namespace RapidApiProject.Controllers
         public async Task<IActionResult> Index()
         {
             List<ApiMovieListViewModel> apiMovieListViewModels = new List<ApiMovieListViewModel>();
-            
+
             var client = new HttpClient();
             var request = new HttpRequestMessage
             {
